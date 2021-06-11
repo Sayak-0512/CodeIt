@@ -1,0 +1,35 @@
+
+.reflex-splitter:hover{
+    background: #14b3ff;
+}
+
+.scrollbar-setter::-webkit-scrollbar {
+    display: none;
+  }
+.xterm-viewport::-webkit-scrollbar {
+    display: none;
+ }
+ .reflex-splitter-vertical{
+    border-color: #6e6e6e !important;
+    height: 100vh !important ;
+    background-color: #6e6e6e !important;
+    width: 4px !important;
+ }
+ .reflex-splitter-vertical:hover{
+     border-color: #14b3ff !important;
+     background-color: #14b3ff !important;
+     width: 6px !important;
+ }
+ .reflex-splitter-horizontal{
+    border-color: #6e6e6e !important;
+    background-color: #6e6e6e !important;
+    height: 4px !important;
+ }
+ .reflex-splitter-horizontal:hover{
+     border-color: #14b3ff !important;
+     background-color: #14b3ff !important;
+     height: 6px !important;
+ }
+ .left-bottom-pane{
+     background-color: black;
+ }
